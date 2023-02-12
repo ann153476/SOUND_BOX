@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cool sound</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        .btn{
+            cursor: pointer;
+            background-color: Transparent;
+            border-width: 0px;
+
+            
+        }
+        .i{
+            height: 170px;
+            align-items: center;
+        }
+        .c{margin-left: 70px;}
+        .f{display: flex;
+            align-items:baseline; }
+        .t{text-align: center; font-size: 35px; margin: 20px;}
+        .box{
+            padding: 40px 120px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1 class="t">TOUCH FOR SOUND</h1>
+        </div>
+        <div class="box">
+                
+            
+                <button onmousedown="sound1.play()" class="btn">
+                    <img src="img/cat.png" class="i">
+                </button>
+                <button onmousedown="sound2.play()" class="btn">
+                    <img src="img/coin.png" class="i c">
+                </button>
+                <button onmousedown="sound6.play()" class="btn">
+                    <img src="img/sound_PNG20.png" class="i c">
+                </button>
+            
+            
+            
+                <button onmousedown="sound3.play()" class="btn">
+                    <img src="img/guitar.png" class="i">
+                </button>
+                <button onmousedown="sound4.play()" class="btn">
+                    <img src="img/moto.png" class="i">
+                </button>
+                <button onmousedown="sound5.play()" class="btn">
+                    <img src="img/Joystick-Transparent-Background.png" class="i c">
+                </button>
+            
+
+            
+                <button onmousedown="sound7.play()" class="btn">
+                    <img src="img/scream.png" class="i">
+                </button>
+                <button onmousedown="sound8.play()" class="btn">
+                    <img src="img/fairy.png" class="i">
+                </button>
+                <button onmousedown="sound9.play()" class="btn">
+                    <img src="img/dog.png" class="i c">
+                </button>
+            
+            
+        </div>
+    </div>
+
+        <script>
+        var sound1 = new Audio();
+        sound1.src = "audio/cat.mp3";
+        var sound2 = new Audio();
+        sound2.src = "audio/coin.mp3";
+        var sound3 = new Audio();
+        sound3.src = "audio/guitar.mp3";
+        var sound4 = new Audio();
+        sound4.src = "audio/moto.mp3";
+        var sound5 = new Audio();
+        sound5.src = "audio/6bit.mp3";
+        var sound6 = new Audio();
+        sound6.src = "audio/bib.mp3";
+        var sound7 = new Audio();
+        sound7.src = "audio/chuvak.mp3";
+        var sound8 = new Audio();
+        sound8.src = "audio/din.mp3";
+        var sound9 = new Audio();
+        sound9.src = "audio/dog.mp3";
+        </script>
+    
+    
+   
+   
+
+</body>
+</html>
