@@ -14,83 +14,66 @@
             box-sizing: border-box;
         }
         body{
+            background: rgb(209, 216, 230);
+            box-sizing: content-box;
             width: 100%;
-            height: 100%;
-            background: cornflowerblue;
+            height: 1vh;
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-       
-        .btn{
-            cursor: pointer;
-            background-color: Transparent;
-            border-width: 0px;
-
-            
-        }
-        .i{
-            height: 170px;
-            align-items: center;
-        }
-        .c{margin-left: 70px;}
-        .f{display: flex;
-            align-items:baseline; }
-        .t{text-align: center; font-size: 35px; margin: 20px;}
-        .box{
-            padding: 40px 120px 0;
-            display: flex;
             flex-wrap: wrap;
+        }
+        button{
+            background-color: transparent;    
+            border: none;        
+            width: 40vh;
+            height: 40vh;
+        }
+        img{
+            max-width: 40vh;
+            max-height: 40vh;
         }
     </style>
     
 </head>
 
 <body>
-    <div>
-        <div>
-            <h1 class="t">TOUCH FOR SOUND</h1>
-        </div>
-        <div class="box">
                 
             
-                <button onmousedown="sound1.play()" class="btn">
-                    <img src="img/cat.png" class="i">
+                <button onmousedown="sound1.play()" >
+                    <img src="img/cat.png">
                 </button>
-                <button onmousedown="sound2.play()" class="btn">
-                    <img src="img/coin.png" class="i c">
+                <button onmousedown="sound2.play()" >
+                    <img src="img/coin.png" >
                 </button>
-                <button onmousedown="sound6.play()" class="btn">
-                    <img src="img/sound_PNG20.png" class="i c">
+                <button onmousedown="sound6.play()" >
+                    <img src="img/sound_PNG20.png" >
                 </button>
             
             
             
-                <button onmousedown="sound3.play()" class="btn">
-                    <img src="img/guitar.png" class="i">
+                <button onmousedown="sound3.play()" >
+                    <img src="img/guitar.png">
                 </button>
-                <button onmousedown="sound4.play()" class="btn">
-                    <img src="img/moto.png" class="i">
+                <button onmousedown="sound4.play()" >
+                    <img src="img/moto.png">
                 </button>
-                <button onmousedown="sound5.play()" class="btn">
-                    <img src="img/Joystick-Transparent-Background.png" class="i c">
+                <button onmousedown="sound5.play()" >
+                    <img src="img/Joystick-Transparent-Background.png" >
                 </button>
             
 
             
-                <button onmousedown="sound7.play()" class="btn">
-                    <img src="img/scream.png" class="i">
+                <button onmousedown="sound7.play()" >
+                    <img src="img/scream.png">
                 </button>
-                <button onmousedown="sound8.play()" class="btn">
-                    <img src="img/fairy.png" class="i">
+                <button onmousedown="sound8.play()" >
+                    <img src="img/fairy.png">
                 </button>
-                <button onmousedown="sound9.play()" class="btn">
-                    <img src="img/dog.png" class="i c">
+                <button onmousedown="sound9.play()" >
+                    <img src="img/dog.png" >
                 </button>
             
-            
-        </div>
-    </div>
 
         <script>
         var sound1 = new Audio();
